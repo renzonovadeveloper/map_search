@@ -1,12 +1,6 @@
-#install issue
-Note that the node-gyp package seems to cause trobles run this to fix the issue:
 
-`:wq!npm install node-gyp-install && ./node_modules/node-gyp-install/bin.js
-
-[![Circle CI](https://circleci.com/gh/mapbox/geojson.io/tree/gh-pages.svg?style=svg)](https://circleci.com/gh/mapbox/geojson.io/tree/gh-pages)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmapbox%2Fgeojson.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmapbox%2Fgeojson.io?ref=badge_shield)
-
-# geojson.io
+# Map Search Demo Project
+This is a full application that allows user to make searches on the map. Drawing a polygon on the map. This polygon is then proccessed as a json file that can then be sent to the user's github account, or downloaded for now.
 
 ### Follow [@geojsonio](https://twitter.com/geojsonio) to keep up with geojson.io's evolution
 
@@ -36,8 +30,7 @@ You can interact with geojson.io programmatically in two ways:
 
 Full API documentation can be found in [API.md](API.md).
 
-## Development
-
+## Development 
 Install [browserify](https://github.com/substack/node-browserify)'ied libraries:
 
     npm install
@@ -67,14 +60,3 @@ This is made up of small reusable chunks:
 * <a href='https://github.com/tyrasd/osmtogeojson'>tyrasd/osmtogeojson</a>
 * <a href='https://github.com/w8r/Leaflet.draw.drag'>w8r/Leaflet.draw.drag</a>
 * <a href='https://github.com/cschwarz/wkx'>cschwarz/wkx</a>
-
-
-## See Also
-
-* [TileMill](http://www.mapbox.com/tilemill/) for styling maps
-* [MapBox](http://www.mapbox.com/) for all of the APIs used in geojson.io
-* [uMap](https://umap.openstreetmap.fr) is a similar tool with its own data storage
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmapbox%2Fgeojson.io.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmapbox%2Fgeojson.io?ref=badge_large)
-# map_search
